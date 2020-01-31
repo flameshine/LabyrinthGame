@@ -1,2 +1,2 @@
-# Labyrinth
+# labyrinthGame
 Simple game for fun!
