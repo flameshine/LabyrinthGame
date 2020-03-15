@@ -114,7 +114,7 @@ int main()
 		level.Y = 0;
 		level.X = 26;
 
-	    int coin = 3 + rand() % 7;
+	        int coin = 3 + rand() % 7;
 		int coin_counter = 0;
 
 		coin_counter = GenerateCoins(coin_counter, coin);
@@ -217,9 +217,7 @@ int main()
 				}
 
 				if (arr_one[coord.Y][coord.X] == 7)
-				{
 					lvl++;
-				}
 			}
 
 			if (lvl == 2 && lvl_two == true)
@@ -335,9 +333,7 @@ void ChangeLevelToThird()
 	for (int i = 0; i < ROWS; i++)
 	{
 		for (int j = 0; j < COLUMNS; j++)
-		{
 			arr_one[i][j] = arr_two[i][j];
-		}
 	}
 }
 
@@ -346,9 +342,7 @@ void ChangeLevelToSecond()
 	for (int i = 0; i < ROWS; i++)
 	{
 		for (int j = 0; j < COLUMNS; j++)
-		{
 			arr_one[i][j] = arr_two[i][j];
-		}
 	}
 }
 
