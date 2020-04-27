@@ -1,4 +1,4 @@
-# labyrinthGame
+# LabyrinthGame
 
 <h2>Description:</h2>
 
