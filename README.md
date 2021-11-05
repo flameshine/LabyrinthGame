@@ -2,4 +2,4 @@
 
 <h2>Description:</h2>
 
-<h5>Simple labyrinth game for fun!</h5>
+<h5>Simple and funny game.</h5>
