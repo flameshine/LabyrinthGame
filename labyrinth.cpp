@@ -117,7 +117,7 @@ int main()
 		level_position.Y = 0;
 		level_position.X = 26;
 
-	    int coin = 3 + rand() % 7;
+	        int coin = 3 + rand() % 7;
 		int coin_counter = 0;
 
 		coin_counter = generate_coins(coin_counter, coin);
@@ -299,7 +299,6 @@ void show()
 				set_color(LIGHT_GREEN, BLACK);
 				cout << "X";
 			}
-
 			else if (array_one[i][j] == 8)
 			{
 				set_color(YELLOW, BLACK);
